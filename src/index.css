@@ -133,3 +133,19 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
+@media screen and (max-width: 667px) and (min-width: 300px) {
+  /* h1 for logo */
+  h1 {
+    font-size: 6rem;
+  }
+  .add-form {
+    display: grid;
+  }
+  .add-form h3 {
+    font-size: 2rem;
+  }
+  .stats {
+    font-size: 1.9rem;
+  }
+}
